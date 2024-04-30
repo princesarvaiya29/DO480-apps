@@ -19,10 +19,7 @@ spec:
         name: frontend
     spec:
       containers:
-      - resources:
-          limits:
-            cpu: '0.5'
-        image: quay.io/redhattraining/todo-single:v1.0
+      - image: quay.io/redhattraining/todo-single:v1.0
         name: todonodejs
         ports:
         - containerPort: 8080
