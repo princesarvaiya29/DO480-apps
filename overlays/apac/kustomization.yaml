@@ -6,7 +6,7 @@ nameSuffix: -apac
 images:
  - name: mysql
    newName: registry.redhat.io/rhel8/mysql-80
-   newTag: ef8271ea-cec8-4b47-8898-7a8990d48974
+   newTag: 1-152
 
 resources:
 - route.yaml
